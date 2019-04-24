@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   mosquitto:
-    image: znibb/mosquitto-rpi:latest
+    image: znibb/mosquitto:latest
     deploy:
       replicas: 1
       restart_policy:
