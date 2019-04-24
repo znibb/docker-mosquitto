@@ -8,4 +8,4 @@
   - NOTE Example config in files/
 
 ## Starting
-Deploy: `docker stack deploy -c docker-stack.yml mosquitto
+Deploy: `docker stack deploy -c docker-stack.yml mosquitto`
