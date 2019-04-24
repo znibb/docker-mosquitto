@@ -1,6 +1,6 @@
-FROM arm32v6/alpine:3.8
+FROM alpine:3.8
 
-LABEL maintainer="znibb <pontus.pson@gmail.com>"
+MAINTAINER znibb@zkylark.se
 
 RUN	apk add --no-cache \
 	mosquitto && \
